@@ -1,0 +1,4 @@
+# Cegah file konfigurasi dan koneksi dibuka lewat browser
+<FilesMatch "^(config|db)\.php$">
+    Require all denied
+</FilesMatch>
